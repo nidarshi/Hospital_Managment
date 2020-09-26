@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="css/registration.css"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+       body{
+    background-color:#f2f2f2;
+    background:url(./images/adminpage_2.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+   </style>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <form action="removeusers.jsp">
+        <input type="submit" name="remove" value="Remove Users" style="float: right;padding-right:20px;margin-right: 20px;">
+    </form>
+<h1>User Registration</h1>
+<!--*************************Doctor Registration ***************************-->
+<div class="formDiv">
+<div class="docreg">
+        <p id="reghead" style="font-size: 30px;">Doctors Registration</p>
+
+        <form action="registration.jsp">
+          <!-- <label for="lname">User Category</label><br> -->
+          <input type="hidden" id="fname" name="userCatagory" value="Doctor" >
+
+          <label for="fname">Name with Initials</label><br>
+          <input type="text" id="fname" name="fname"><br>
+
+          <label for="fname">specialization</label><br>
+           <select name="Specialisation">
+              <option value="Physician">Physician</option>
+              <option value="Surgeon">Surgeon</option>
+              <option value="Pediatrician">Pediatrician</option>
+              <option value="Gynecologist">Gynecologist</option>
+              <option value="Psychiatrist">Psychiatrist</option>
+              <option value="Cardiologist">Cardiologist</option>
+              <option value="Endocrinologist">Endocrinologist</option>
+              <option value="Neurologist">Neurologist</option>
+            </select><br>
+
+          <label for="fname">Details</label><br>
+          <label for="comment" style="font-size: 14px;color: black;">(Please fill out this field.)</label><br>
+          <input type="text" id="fname" name="details" placeholder="MBBS"><br>
+            
+          <label for="lname">Channeling Day</label><br>
+         
+            <select name="channelingDay">
+                
+              <option>Select Channeling Day</option>          
+              <option value="Sunday">Sunday</option>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+              <option value="Saturday">Saturday</option>
+              
+            </select><br>
+          
+          
+            
+          <label for="lname">Channeling Time</label><br>
+          <input type="text" id="lname" name="channelingTime"><br>
+
+            
+          <label for="lname">Mobile</label><br>
+          <input type="text" id="lname" name="Mobile"><br>
+
+          <label for="lname">Email</label><br>
+          <input type="Email" id="lname" name="Email"><br><br>
+
+          <label for="lname">Gender</label>
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female<br><br>
+
+          <label for="lname">User Name</label><br>
+          <input type="text" id="lname" name="UserName"><br>
+
+          <label for="lname">Password</label><br>
+          <input type="password" id="lname" name="Password"><br><br>
+
+          
+          <input type="reset" name="reset" value="Clear" style="text-align: right;">
+          <input type="submit" name="docsubmit" value="Register" style="text-align: right;">
+        </form>
+</div>
+
+
+
+<!--***********************Other users Registration ***************************-->
+<div class="Staffreg">
+
+        <p id="reghead" style="font-size: 30px;">Other Staff Registration</p>
+
+        <form action="registration.jsp">
+            
+            <label for="fname">User Category</label><br>
+            <select name="userCatagory">
+              <option value="Admin">Admin</option>
+              <option value="Lab Officer">Lab Officer</option>
+              <option value="Receptionist">Receptionist</option>
+            </select><br><br>
+
+
+            <label for="fname">Name with Initials</label><br>
+            <input type="text" id="fname" name="fname">
+
+            <input type="hidden" id="fname" name="Specialisation" value="Staff Member"><br>
+
+            <label for="lname">Mobile</label><br>
+            <input type="text" id="lname" name="Mobile"><br>
+
+            <label for="lname">Email</label><br>
+            <input type="Email" id="lname" name="Email"><br><br>
+
+            <label for="lname">Gender</label>
+              <input type="radio" name="gender" value="male" checked> Male
+              <input type="radio" name="gender" value="female"> Female<br><br>
+
+            <label for="lname">User Name</label><br>
+            <input type="text" id="lname" name="UserName"><br>
+
+            <label for="lname">Password</label><br>
+            <input type="password" id="lname" name="Password"><br><br>
+
+            <input type="reset" name="reset" value="Clear" style="text-align: right;">
+            <input type="submit" name="staffsubmit" value="Register" style="text-align: right;">
+            
+
+        </form>
+
+
+</div>
+</div>
+
+</body>
+</html>

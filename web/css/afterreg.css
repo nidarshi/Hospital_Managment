@@ -1,0 +1,42 @@
+.userdet{
+    font-size: 15px;
+    text-align: center;
+}
+h4{
+  font-size:30px;
+  color:#0f0f0f;
+    text-align: center;  
+    padding:20px;
+}
+
+.smail{
+    font-size: 15px;
+    text-align: center;  
+    padding:20px;
+}
+.send{
+    padding:8px;
+}
+.sendt{
+    padding:8px;
+     font-size: 20px;
+    color:#0f0f0f;
+    text-decoration: bold;
+}
+
+input[type=submit],input[type=reset]{
+   border:1px;
+   background-color: blue;
+   padding: 5px 20px;
+   color: white;
+}
+input[type=reset]:hover{
+   
+    background-color: #ebfafa;
+  
+}
+input[type=submit]:hover{
+   color: black;
+    background-color: #ebfafa;
+  
+}

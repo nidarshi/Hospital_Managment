@@ -1,0 +1,68 @@
+*{
+		box-sizing: border-box;
+                
+		}
+		
+		[class*="col-"] {
+			width: 100%;
+		}
+		@media only screen and (min-width: 768px) {
+			
+			.col-1 {width: 8.33%;}
+			.col-2 {width: 16.66%;}
+			.col-3 {width: 25%;}
+			.col-4 {width: 33.33%;}
+			.col-5 {width: 41.66%;}
+			.col-6 {width: 50%;}
+			.col-7 {width: 58.33%;}
+			.col-8 {width: 66.66%;}
+			.col-9 {width: 75%;}
+			.col-10 {width: 83.33%;}
+			.col-11 {width: 91.66%;}
+			.col-12 {width: 100%;}
+		}
+		
+		.colom1, .colom2, .colom3, .colom4, .colom5, .colom6, .head1, .head2
+		,.div11, .div12, .div13, .div1, .div2{
+			float:left;
+		}
+		
+		
+		.Footer1, .Footer2, .Footer3, .Footer4{
+			float:left;
+			color:black;
+                        
+                        
+		}
+		.ul1{
+			list-style-type :none;
+		}
+		li.item1, li.item2, li.item3, li.item4, li.item5  {
+			margin:0 0 0px 0;   
+		}
+		
+		.Footer{
+			background: rgb(0,0,0,0.1);
+			overflow:auto;
+                        padding-top: 20px;
+                        padding-bottom:  20px;
+		}
+		#Footerhead{
+			color:#009ACD;
+			font-size:18px;
+		}
+		#link2:link, #link2:visited{
+			color:black;
+			text-decoration:none;
+                        
+		} 
+		#link2:hover{
+			color:#009ACD;
+			text-decoration:none;
+		}
+                .Footer4{
+                    
+                }
+                .linkss{
+                    margin-left:45px;
+                }
